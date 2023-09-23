@@ -25,7 +25,7 @@ const BtnHeader = styled.a`
   font-weight: 600;
   border: 2px solid white;
   color: ${ (primary) => primary ? "white" : colorPrimario };
-  background: ${ (props) => props.primary ? "transparent" : "white" };
+  background: ${ (primary) => primary ? "transparent" : "white" };
 `
 
 const Header = () => {
